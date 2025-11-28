@@ -38,7 +38,7 @@ def create_model(data):
     
 def main():
     data = get_clean_data()
-    
+
     model, scalar = create_model(data)
 
     with open("model/model.pkl", "wb") as f:
